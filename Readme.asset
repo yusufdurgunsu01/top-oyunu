@@ -1,34 +1,51 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
-  m_Name: Readme
-  m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
-  title: URP Empty Template
-  sections:
-  - heading: Welcome to the Universal Render Pipeline
-    text: This template includes the settings and assets you need to start creating with the Universal Render Pipeline.
-    linkText: 
-    url:
-  - heading: URP Documentation
-    text:
-    linkText: Read more about URP
-    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest
-  - heading: Forums
-    text:
-    linkText: Get answers and support
-    url: https://forum.unity.com/forums/universal-render-pipeline.383/
-  - heading: Report bugs
-    text:
-    linkText: Submit a report
-    url: https://unity3d.com/unity/qa/bug-reporting
-  loadedLayout: 1
+# 🎮 Top Oyunu (Sonsuz Yol)
+
+Bu oyun, oyuncunun bir topu kontrol ederek renkli toplarla etkileşime girdiği ve engellerden kaçtığı **sonsuz bir yolculuk** deneyimi sunar. Amaç, topu mümkün olduğunca uzun süre engellere çarpmadan ilerletmektir.
+
+---
+
+## 🧩 Oyun Özellikleri
+
+- ⚪ **Temel top**: Oyuncunun yönettiği ana top, sabit bir yolda ilerler ve düşmez.
+- 🎨 **Renk değişimi**: Renkli toplara çarpıldığında, ana topun rengi değişir.
+- 💥 **Hızlanma**: Arka arkaya 3 renkli topa çarptığında, top aniden hızlanır.
+- 🚧 **Engeller**: Yol boyunca sağlı sollu engeller bulunur. Eğer top bir engele çarparsa:
+  - Oyun durur ❌
+  - Yeniden başlatılır 🔁
+- 🔄 **Sonsuz yol**: Oyun sürekli devam eder; amaç, mümkün olduğunca uzun süre hayatta kalmak.
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **Unity** (2021 veya üzeri)
+- **C#** (Oyun mantığı için)
+
+---
+
+## 🚀 Nasıl Çalıştırılır?
+
+1. Bu projeyi bilgisayarınıza klonlayın:
+   ```bash
+   git clone https://github.com/kullaniciadiniz/top-oyunu.git
+   ```
+
+2. Unity Hub ile projeyi açın.
+
+3. `Assets/Scenes/` klasöründe yer alan sahneyi (`MainScene.unity` gibi) açın.
+
+4. Unity içinde `Play` butonuna basarak oyunu başlatın.
+
+---
+
+## 👨‍💻 Geliştiriciler
+
+- **Yusuf Durgunsu**
+
+
+
+## 📄 Lisans
+
+Bu proje MIT lisansı ile paylaşılmıştır. Dilerseniz katkı sağlayabilir veya projeyi geliştirebilirsiniz.
+
+---
